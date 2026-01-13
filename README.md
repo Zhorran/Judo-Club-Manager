@@ -91,7 +91,7 @@ Diplômes fédéraux
 
 Arbitrage
 
-Commissariat
+Commissaire
 
 Fusion intelligente (pas de doublons)
 
