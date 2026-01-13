@@ -1,210 +1,110 @@
 🥋 Judo Club Manager
 
-Judo Club Manager est une application de gestion complète pour clubs de judo, ju-jitsu et disciplines associées.
-Elle permet de centraliser les adhérents, licences fédérales, grades, diplômes, cours, et de produire des statistiques et documents PDF professionnels.
+© 2025 SALAS Jean
 
-✨ Fonctionnalités principales
+📌 Présentation
+
+Judo Club Manager est une application de gestion dédiée aux clubs de judo et disciplines associées.
+Elle permet de centraliser, organiser et exploiter efficacement les données des adhérents sur plusieurs saisons sportives.
+
+L’application fonctionne hors ligne, sans connexion internet, et stocke les données localement sur l’ordinateur de l’utilisateur.
+
+🎯 Fonctionnalités principales
 👥 Gestion des adhérents
 
-Création, modification et suppression des adhérents
+Création, modification et suppression d’adhérents
 
-Fiche adhérent complète :
+Gestion des responsables légaux
 
-Identité
+Coordonnées complètes (adresse, téléphone, email)
 
-Coordonnées
+Informations club (cours suivis, type d’adhésion, remarques)
 
-Responsables légaux
+🗂️ Gestion par saison
 
-Informations club
+Création de saisons indépendantes
 
-Informations fédérales par saison
+Chaque saison est totalement isolée
 
-Recherche instantanée
+Aucune copie automatique d’adhérents d’une saison à l’autre
 
-Tri alphabétique automatique
+📥 Imports CSV
 
-Filtres avancés :
+Import CSV Fédération
 
-Licencié / non licencié
+Licences fédérales
 
-Sexe (M / F)
+Statut de licence
 
-Âge (-18 / 18+)
 
-Cours suivis
+Diplômes
 
-🗓️ Gestion par saisons
+Grades 
 
-Création de saisons indépendantes (ex : 2024–2025, 2025–2026)
-
-Chaque saison est isolée :
-
-Licences
-
-Statuts
-
-Données fédérales
-
-Suppression sécurisée d’une saison
-
-Changement de saison instantané
-
-📥 Import CSV
 Import CSV Club
 
-Compatible Google Forms
-
-Données prises en compte :
-
-Identité
-
-Sexe (normalisé M / F)
+Données administratives
 
 Responsables légaux
 
-Ceinture déclarée
+Informations d’adhésion
 
-Type d’adhésion
+Les imports mettent à jour les adhérents existants sans duplication.
 
-Consentement SMS / MMS
+🟢 Statut des adhérents
 
-Remarques
+Vert : adhérent licencié pour la saison sélectionnée
 
-Import sans écraser les données fédérales
-
-Import CSV Fédération (FFJDA)
-
-Mise à jour automatique des licenciés
-
-Gestion par saison
-
-Import :
-
-Numéro de licence
-
-Statut
-
-Grades / DAN
-
-Diplômes fédéraux
-
-Arbitrage
-
-Commissaire
-
-Fusion intelligente (pas de doublons)
+Rouge : non licencié ou licence absente pour la saison
 
 📊 Synthèse du club
-
-Vue complète et dynamique par saison :
 
 Nombre total de licenciés
 
 Répartition par sexe
 
-Répartition par âge
+Répartition par âge (mineurs / majeurs)
 
 Croisement âge / sexe
 
 Effectifs par cours
 
-Encadrement :
+Encadrement (enseignants, arbitres, commissaires)
 
-Enseignants
+Grades et diplômes 
 
-Arbitres
 
-Commissaires
+🖨️ Exports PDF
 
-Grades :
+Liste des adhérents
 
-Ceintures noires
+Fiche individuelle d’un adhérent
 
-Diplômes fédéraux
+Synthèse complète du club avec tableaux et graphiques
 
-📈 Graphiques intégrés :
+Les fichiers sont automatiquement enregistrés dans un dossier dédié à l’application.
 
-Camembert (genre)
+💾 Stockage des données
 
-Histogrammes (âge, cours)
+Données enregistrées localement
 
-Comparaison saison N / N-1
+Aucun envoi de données vers internet
 
-📄 Export PDF
+Compatible version portable et version .exe
 
-📋 Liste des adhérents (PDF)
+⚙️ Compatibilité
 
-🧾 Fiche adhérent individuelle (PDF)
+Windows 10 / 11
 
-📊 Synthèse du club (PDF complet) :
 
-Tableaux
-
-Graphiques
-
-Mise en page professionnelle
-
-Les fichiers sont enregistrés automatiquement dans le dossier exports de l’application.
-
-🔄 Mise à jour automatique
-
-Vérification automatique des nouvelles versions via GitHub
-
-Notification si une version plus récente est disponible
-
-Téléchargement sécurisé du nouveau setup
-
-🖥️ Application bureau
-
-Interface moderne (CustomTkinter)
-
-Compatible Windows
-
-Fonctionne sans Python installé
-
-Installation via setup.exe
-
-Icône personnalisée JCM
-
-📁 Organisation des données
-
-Les données utilisateur sont stockées localement (hors code) :
-
-Adhérents
-
-Saisons
-
-Grades
-
-Exports PDF
-
-👉 Les mises à jour de l’application n’effacent jamais les données.
-
-🛠️ Technologies utilisées
-
-Python 3
-
-CustomTkinter
-
-ReportLab (PDF)
-
-Matplotlib (graphiques)
-
-PyInstaller (exécutable)
-
-Inno Setup (installateur Windows)
-
-🔐 Licence & droits
+🔒 Droits & Copyright
 
 © 2025 SALAS Jean – Judo Club Manager
 Tous droits réservés.
 
-Ce logiciel est protégé par le droit d’auteur.
-Toute reproduction, modification ou distribution sans autorisation est interdite.
+Toute reproduction, distribution ou modification du logiciel sans autorisation est interdite.
 
 📬 Contact
 
-Pour toute question, suggestion ou retour :
-
-salas.jean@live.fr
+Pour toute question ou suggestion :
+📧 salas.jean@live.fr
